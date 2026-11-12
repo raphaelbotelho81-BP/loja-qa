@@ -1,0 +1,11 @@
+{
+  "name": "loja-qa",
+  "version": "1.0.0",
+  "description": "Mini loja virtual usada na aula de análise estática (contém problemas de propósito)",
+  "main": "src/carrinho.js",
+  "scripts": {
+    "test": "node --test",
+    "coverage": "node --test --experimental-test-coverage"
+  },
+  "license": "MIT"
+}
