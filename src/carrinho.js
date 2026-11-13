@@ -56,7 +56,7 @@ function calcularFrete(estado, peso, expresso, cliente) {
 function aplicarCupom(total, cupom) {
   if (cupom === "PROMO10") {
     return total * 0.9;
-  } else if (cupom === "PROMO10") {
+  } else if (cupom === "PROMO20") {
     return total * 0.8;
   }
   return total;
